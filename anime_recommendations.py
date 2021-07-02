@@ -11,6 +11,7 @@ from sklearn.cluster import KMeans
 pd.set_option('display.max_columns', None)
 
 class anime_recommend():
+
     #---------------------collaborative filtering movies
     def __make_table(self):
         anime_data = pd.read_csv('anime.csv')
