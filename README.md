@@ -4,6 +4,7 @@ In this project as part of a recommendation systems course I chose to make a hyb
 The system combines content-based recommendations, collaborative filtering and default recommendations.
 
 # DataSet
+
 The dataset i chose for this project is a dataset of anime movies from the Kaggle site, 
 which contains ratings of 73,516 users on 12,294 anime movies with an amount of about 1,048567 ratings, and consists of two CSV tables.
 
