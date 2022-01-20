@@ -1,4 +1,5 @@
 # Anime recommendation system
+
 In this project as part of a recommendation systems course I chose to make a hybrid recommendation system for anime films.
 The system combines content-based recommendations, collaborative filtering and default recommendations.
 
