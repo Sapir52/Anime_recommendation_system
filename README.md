@@ -3,15 +3,22 @@
 In this project as part of a recommendation systems course I chose to make a hybrid recommendation system for anime films.
 The system combines content-based recommendations, collaborative filtering and default recommendations.
 
-## DataSet
+## DataSet:
 The dataset i chose for this project is a dataset of anime movies from the Kaggle site, 
 which contains ratings of 73,516 users on 12,294 anime movies with an amount of about 1,048567 ratings, and consists of two CSV tables.
 
-# Definition
-Content Based - A Content-Based Recommender works by the data that we take from the user, either explicitly (rating) or implicitly (clicking on a link). By the data we create a user profile, which is then used to suggest to the user, as the user provides more input or take more actions on the recommendation, the engine becomes more accurate.
-
+## Definition:
 Collaborative Filtering - The purpose of collaborative filtering is to make it easier for users to find products and / or knowledge by finding similarities between them and the browsing and consumption history of other users with similar characteristics.
 The basic premise of the collaborative filtering approach is that if users have similarities in a particular topic or product, then there is a chance that their preferences will be similar in other topics and in other products as well.
+
+Content Based - A Content-Based Recommender works by the data that we take from the user, either explicitly (rating) or implicitly (clicking on a link). By the data we create a user profile, which is then used to suggest to the user, as the user provides more input or take more actions on the recommendation, the engine becomes more accurate.
+
+## Implementation:
+- Collaborative Filtering: A pivottable was used which was a knn classified input.
+
+- Content Based: Tfidf vector representation used that was input for cosine similarity.
+
+- Default recommendation: Movies are randomly selected with the highest rating. 
 
 ## How the system works:
 ![System](https://user-images.githubusercontent.com/63209732/123109156-aae58d00-d443-11eb-87f8-d34efda04355.png)
