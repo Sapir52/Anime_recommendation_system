@@ -14,9 +14,9 @@ The basic premise of the collaborative filtering approach is that if users have 
 Content Based - A Content-Based Recommender works by the data that we take from the user, either explicitly (rating) or implicitly (clicking on a link). By the data we create a user profile, which is then used to suggest to the user, as the user provides more input or take more actions on the recommendation, the engine becomes more accurate.
 
 ## Implementation:
-- Collaborative Filtering: A pivottable was used which was a knn classified input.
+- Collaborative Filtering: A pivot table was used that was input to the knn classifier.
 
-- Content Based: Tfidf vector representation used that was input for cosine similarity.
+- Content Based: A tfidf vector representation was used that was input to the cosine similarity.
 
 - Default recommendation: Movies are randomly selected with the highest rating. 
 
